@@ -1,0 +1,37 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a [routerLink]="['/home']" class="navbar-brand d-block d-md-none"> <img src="https://ecofin-assets.s3.amazonaws.com/icono-header.png" width="60px" alt="EcoFin-F"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#stratos-nav" aria-controls="stratos-nav" aria-expanded="false" aria-label="Menu de Navegacion">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse d-md-none" id="stratos-nav">
+      <ul class="navbar-nav mr-auto d-md-none">
+        <li class="nav-item">
+          <a class="nav-link">Acerca de</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Portafolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link item">Nuestros servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link item">Contacto</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <div class="menu d-none d-md-block fixed-top">
+    <div class="row">
+      <div class="col-4 py-4 d-flex justify-content-around">
+        <a>Acerca de</a>
+        <a>Portafolio</a>
+        <a>Nuestros servicios</a>
+        <a>Contacto</a>
+      </div>
+    </div>
+  </div>
+</header>
