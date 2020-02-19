@@ -5,52 +5,87 @@
 
 html,body{
   overflow-x: hidden;
+  background: black;
+  color: white;
 }
 /* COLORES */
 $colorFondoNegro: #000000;
 
+/*TAMAÑOS*/
+$tamañoGrande: 17pt;
+
 /*   FUENTES    */
 @font-face {
   font-family: "Glober-Black";
-  src: url("/assets/font/GLOBERBLACK.OTF");
+  src: url("/assets/font/GLOBER/GLOBERBLACK.OTF");
 }
 
 @font-face {
   font-family: "Glober-Bold";
-  src: url("/assets/font/GLOBERBOLD.OTF");
+  src: url("/assets/font/GLOBER/GLOBERBOLD.OTF");
 }
 
 @font-face {
   font-family: "Glober-Bold";
-  src: url("/assets/font/GLOBERBOLD.OTF");
+  src: url("/assets/font/GLOBER/GLOBERBOLD.OTF");
 }
 
 @font-face {
   font-family: "Glober-Book";
-  src: url("/assets/font/GLOBERBOOK.OTF");
+  src: url("/assets/font/GLOBER/GLOBERBOOK.OTF");
 }
 
 @font-face {
   font-family: "Glober-Heavy";
-  src: url("/assets/font/GLOBERHEAVY.OTF");
+  src: url("/assets/font/GLOBER/GLOBERHEAVY.OTF");
 }
 
 @font-face {
   font-family: "Glober-Light";
-  src: url("/assets/font/GLOBERLIGHT.OTF");
+  src: url("/assets/font/GLOBER/GLOBERLIGHT.OTF");
 }
 
 @font-face {
   font-family: "Glober-Regular";
-  src: url("/assets/font/GLOBERREGULAR.OTF");
+  src: url("/assets/font/GLOBER/GLOBERREGULAR.OTF");
 }
 
 @font-face {
   font-family: "Glober-Semibold";
-  src: url("/assets/font/GLOBERSEMIBOLD.OTF");
+  src: url("/assets/font/GLOBER/GLOBERSEMIBOLD.OTF");
 }
 
 @font-face {
   font-family: "Glober-Thin";
-  src: url("/assets/font/GLOBERTHIN.OTF");
+  src: url("/assets/font/GLOBER/GLOBERTHIN.OTF");
+}
+
+@font-face {
+  font-family: "DM-Bold";
+  src: url("/assets/font/DM_Sans/DMSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "DM-BoldItalic";
+  src: url("/assets/font/DM_Sans/DMSans-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "DM-Italic";
+  src: url("/assets/font/DM_Sans/DMSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: "DM-Medium";
+  src: url("/assets/font/DM_Sans/DMSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "DM-MediumItalic";
+  src: url("/assets/font/DM_Sans/DMSans-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "DM-Regular";
+  src: url("/assets/font/DM_Sans/DMSans-Regular.ttf");
 }
