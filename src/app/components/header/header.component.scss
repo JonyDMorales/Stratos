@@ -1,48 +1,35 @@
 @import "../../../styles";
 
+body{
+  padding-top: 71px;
+}
+
 header{
   font-family: "DM-Bold";
-  font-size: $tamañoGrande;
+  font-size: $tamañoMediano;
   color: white;
   background: black;
 
   .navbar {
     background: black !important;
     color: white !important;
-    font-family: "DM-Bold";
-    font-size: $tamañoGrande;
 
     .nav-link{
+      cursor: pointer !important;
       background: black !important;
       color: white !important;
       font-family: "DM-Bold" !important;
-      font-size: $tamañoGrande !important;
+      font-size: $tamañoMediano !important;
     }
 
-    .navbar-expand-md{
-      background: black !important;
-      color: white !important;
-      font-family: "DM-Bold" !important;
-      font-size: $tamañoGrande !important;
-    }
-
-    .navbar-dark {
-      background: black !important;
-      color: white !important;
-      font-family: "DM-Bold" !important;
-      font-size: $tamañoGrande !important;
-    }
-
-    .bg-dark {
-      background: black !important;
-      color: white !important;
-      font-family: "DM-Bold" !important;
-      font-size: $tamañoGrande !important;
-    }
   }
 }
 
 .menu{
+
+  a{
+    cursor: pointer !important;
+  }
   img{
     margin-top: 0;
     padding-top: 0;
